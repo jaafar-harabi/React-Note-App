@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 
 import './App.css';
 import Preview from './components/Preview';
@@ -50,7 +51,7 @@ function App() {
     }
 
     if (!content){
-      validationErrors.push('الرجاء ادخال عنوان الملاحظة')
+      validationErrors.push('الرجاء ادخال النص')
       passed = false
     }
     setValidtaionErrors(validationErrors)
